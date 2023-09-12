@@ -17,6 +17,10 @@ namespace StudentApp
         {
             get { return _pcn; }
         }
+        public string Name
+        {
+            get { return _name; }
+        }
         public int Years
         {
             get { return _yearsAtSchool; }
